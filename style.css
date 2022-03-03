@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  font-size: 50px;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body a {
+  text-decoration: none;
+  color: cornflowerblue;
+  transition: 0.3s;
+}
+
+body a:hover {
+  color: rgb(33, 83, 190);
+  transform: scale(1.1);
+}
