@@ -20,9 +20,9 @@ const users = [
   { id: "9", name: "Daniel Cane", age: 51 },
 ];
 
-let getUserNames = (array) => array.map((x) => x.name);
+let getUsersNames = (array) => array.map((x) => x.name);
 let getUserAverageAge = (array) =>
   array.reduce((total, user) => (total += user.age), 0) / array.length;
 
-console.log(getUserNames(users));
+console.log(getUsersNames(users));
 console.log(getUserAverageAge(users));
