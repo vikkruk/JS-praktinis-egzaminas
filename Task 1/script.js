@@ -28,7 +28,7 @@ form.addEventListener("submit", (e) => {
     search.value = "";
   } else {
     alert(
-      "Enter a number. A decimal number should be written with a decimal point (e.g. 2.5 or 11.85)"
+      "Enter a number. A decimal number should be entered with a decimal point (e.g. 2.5 or 11.85)"
     );
   }
 });

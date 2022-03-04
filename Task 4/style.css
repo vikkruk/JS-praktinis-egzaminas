@@ -29,7 +29,11 @@
 }
 
 #output {
-  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px auto;
   padding: 10px;
   width: 100%;
 }
@@ -39,7 +43,22 @@
   border: 5px solid black;
   border-radius: 10px;
   padding: 50px;
-  margin-bottom: 10px;
+  width: 300px;
+  height: 400px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  background-color: beige;
+}
+
+::-webkit-scrollbar-track {
+  background-color: beige;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: crimson;
+  border-radius: 10px;
 }
 
 #output .card h2 {

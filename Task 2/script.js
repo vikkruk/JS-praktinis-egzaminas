@@ -11,7 +11,7 @@ let numberCounter = 0;
 button.addEventListener("click", () => {
   numberCounter++;
   if (numberCounter === 7) {
-    counter.style.color = "crimson";
+    counter.style.color = "cornflowerblue";
   } else {
     counter.style.color = "#fff";
   }
